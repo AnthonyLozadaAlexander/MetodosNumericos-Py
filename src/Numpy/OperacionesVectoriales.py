@@ -14,6 +14,6 @@ print(f"Arreglo + k = {result}")
 arreglo2: np.ndarray = np.array([2, 2, 2, 2])
 producto: np.ndarray = arreglo1 * arreglo2
 
-print(f"\nA =  ", arreglo1)
+print(f"\nA = ", arreglo1)
 print(f"B = ", arreglo2)
 print(f"Producto de [A] * [B] = {producto}")
