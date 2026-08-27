@@ -1,0 +1,7 @@
+{
+  "github.copilot.chat.commitMessageGeneration.instructions": [
+    {
+      "text": "Genera siempre el mensaje de commit en español. Sigue el formato Conventional Commits: <tipo>(<alcance>): <descripción>. Tipos válidos: feat, fix, docs, style, refactor, test, chore, perf. La descripción debe estar en modo imperativo (ej: Agrega, Corrige, Elimina). Incluye siempre un cuerpo explicativo que detalle el POR QUÉ del cambio, el contexto del problema y el impacto. Máximo 72 caracteres en la primera línea. No uses inglés. No uses mensajes vagos."
+    }
+  ]
+}
