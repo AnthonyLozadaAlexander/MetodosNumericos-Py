@@ -8,7 +8,9 @@ y_derivada: np.ndarray = 6 * x - 9  # tangente: y = 6x - 9
 
 plt.plot(x, y, label="f(x) = x^2")
 plt.plot(x, y_derivada, label="Derivada: y = 6x - 9")
+plt.scatter(3, 9, color="Blue", s=50, zorder=5, label="Punto (3, 9)")
 
+
+plt.grid(True)
 plt.legend()
-
 plt.show()
