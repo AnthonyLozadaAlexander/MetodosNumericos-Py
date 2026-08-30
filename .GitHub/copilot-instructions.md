@@ -88,10 +88,11 @@ la duplicación de código y facilita el mantenimiento futuro.
 
 ---
 
+- NUNCA OLVIDES ESTE ARCHIVO DIRIGO A GITHUB COPILOT-INSTRUCTIONS.MD, PARA QUE LOS COMMITS SIEMPRE SEAN EN ESPANIOL
+
 ## Qué NO hacer en commits
 - ❌ No usar inglés en el mensaje de commit
 - ❌ No escribir mensajes vagos como "cambios", "update", "fix stuff"
 - ❌ No omitir el cuerpo cuando el cambio tiene cierta complejidad
 - ❌ No mezclar múltiples cambios no relacionados en un solo commit
 - ❌ No usar tiempo pasado ("Agregué", "Corregí"); usar imperativo ("Agrega", "Corrige")
-- NUNCA OLVIDES ESTE ARCHIVO
