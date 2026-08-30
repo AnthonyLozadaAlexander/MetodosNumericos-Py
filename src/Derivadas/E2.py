@@ -1,8 +1,8 @@
 import numpy as np
 import matplotlib.pyplot as plt
 
-x: np.ndarray = np.linspace(-4, 4, 100)
-y: np.ndarray = x**3 - 2 * x
+x: np.ndarray = np.linspace(-2, 3, 100)
+y: np.ndarray = (x**3) - 2 * x
 
 y_derivada: np.ndarray = x - 2  # recta tangente de x^3 - 2x
 
