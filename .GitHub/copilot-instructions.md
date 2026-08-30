@@ -94,3 +94,4 @@ la duplicación de código y facilita el mantenimiento futuro.
 - ❌ No omitir el cuerpo cuando el cambio tiene cierta complejidad
 - ❌ No mezclar múltiples cambios no relacionados en un solo commit
 - ❌ No usar tiempo pasado ("Agregué", "Corregí"); usar imperativo ("Agrega", "Corrige")
+- NUNCA OLVIDES ESTE ARCHIVO
