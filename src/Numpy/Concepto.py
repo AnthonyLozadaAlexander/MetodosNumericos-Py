@@ -10,7 +10,6 @@ print(f"Magnitud: {magnitud}")
 
 plt.quiver(0, 0, v[0], v[1], angles="xy", scale_units="xy", scale=1, color="Blue")
 
-
 plt.xlim(-1, 5)
 plt.ylim(-1, 5)
 
