@@ -26,11 +26,11 @@ print("fx = ", fx)
 print("m = ", m_num)
 
 xGen: np.ndarray = np.linspace(-6, 10, 100)
-y: np.ndarray = F(xGen)  # funcion f(x) = sin(x)
+y: np.ndarray = F(xGen)  # funcion f(x) = 2x^2 - x
 
-y_derivada: np.ndarray = m_num * (xGen - x1) + fx  # recta tangente de sin(x)
+y_derivada: np.ndarray = m_num * (xGen - x1) + fx  # recta tangente de 2x^2 - x
 
-plt.plot(xGen, y, label="f(x) = 2x^2 - x")
+plt.plot(xGen, y, label="Temperatura(x) = 2x^2 - x")
 plt.plot(xGen, y_derivada, label="Derivada: y = 4x - 1")
 plt.axhline(0, color="Black", linewidth=1)  # linea que cruza el eje x
 plt.axvline(0, color="Black", linewidth=1)  # linea que cruza el eje y
