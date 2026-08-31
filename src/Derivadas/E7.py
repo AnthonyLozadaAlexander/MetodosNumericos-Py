@@ -25,7 +25,7 @@ fx: float = fun(x1)
 print("fx = ", fx)
 print("m = ", m_num)
 
-xGen: np.ndarray = np.linspace(-4, 6, 100)
+xGen: np.ndarray = np.linspace(-3, 4, 100)
 y: np.ndarray = F(xGen)  # funcion f(x) = x**2 * np.exp(x)
 
 y_derivada: np.ndarray = m_num * (xGen - x1) + fx  # recta tangente de x**2 * np.exp(x)
