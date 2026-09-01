@@ -6,6 +6,7 @@ b: np.ndarray = np.array([1, 3])
 
 c: np.ndarray = a + b
 
+# vector A
 plt.quiver(
     0,
     0,
@@ -17,6 +18,8 @@ plt.quiver(
     color="Cyan",
     label="a = [2, 1]",
 )
+
+# vector B
 plt.quiver(
     a[0],
     a[1],
@@ -28,6 +31,8 @@ plt.quiver(
     color="Yellow",
     label="b = [1, 3]",
 )
+
+# vector C = A + B
 plt.quiver(
     0,
     0,
