@@ -6,6 +6,7 @@ b: np.ndarray = np.array([3, 1])
 c: np.ndarray = np.array([-2, -3])
 
 ab: np.ndarray = a + b
+
 r: np.ndarray = a + b + c
 
 # vector A
@@ -60,7 +61,7 @@ plt.quiver(
     label="r = [0, 0]",
 )
 
-
+plt.title(" r = [a] + [b] + [c]")
 plt.xlim(-4, 5)  # eje x
 plt.ylim(-1, 5)  # eje y
 
