@@ -61,7 +61,7 @@ plt.quiver(
     label="r = [0, 0]",
 )
 
-plt.title(" r = [a] + [b] + [c]")
+plt.title(" Vector Resultante: r = [a] + [b] + [c]")
 plt.xlim(-4, 5)  # eje x
 plt.ylim(-1, 5)  # eje y
 
