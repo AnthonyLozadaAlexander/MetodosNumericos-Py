@@ -18,7 +18,7 @@ plt.quiver(
     angles="xy",
     scale_units="xy",
     scale=1,
-    color="Cyan",
+    color="Orange",
     label="a = [-1, 2]",
 )
 
