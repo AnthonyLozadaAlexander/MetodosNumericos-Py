@@ -12,9 +12,9 @@ valorAnterior: float = 1.0
 errorActual: float = 100.0
 intento: int = 1
 
-print("-" * 30)
+print("-" * 60)
 print(f"Aproximacion de la raiz cuadrada de {numeroObjetivo}")
-print("-" * 30)
+print("-" * 60)
 
 while errorActual > tolerancia:
     valorActual: float = (valorAnterior + (numeroObjetivo / valorAnterior)) / 2
@@ -28,6 +28,5 @@ while errorActual > tolerancia:
     valorAnterior = valorActual
     intento = intento + 1
 
-
-print("-" * 30)
+print("-" * 60)
 print(f"La raiz aproximada es: {valorActual:.5f} con un error de {errorActual:.5f}%")
