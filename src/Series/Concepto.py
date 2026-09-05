@@ -15,7 +15,7 @@ print(f"Suma Total De La Serie 3n: {sumatoria}\n")
 
 x: np.ndarray = np.linspace(1, 5, 100)
 
-y: np.ndarray = 3 * x
+y: np.ndarray = 3 * x # funcion de la serie 3n
 
 plt.plot(x, y, label="y = 3n", color="blue")
 plt.xlim(-1, 11)
