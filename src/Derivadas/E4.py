@@ -6,7 +6,7 @@ x1: float = np.pi
 x = sp.symbols("x")
 f = x * (sp.cos(x))  # funcion
 df = sp.diff(f, x)  # derivada
-m = df.subs(x, x1)  # pendiente en el punto x1
+m = df.subs(x, x1)  # calculo de la pendiente en el punto x1
 
 m_num: float = float(m)  # type: ignore # convertir a float
 
