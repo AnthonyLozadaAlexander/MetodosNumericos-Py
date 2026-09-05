@@ -25,8 +25,8 @@ plt.axhline(0, color="Black", linewidth=1)  # linea que cruza el eje x
 plt.axvline(0, color="Black", linewidth=1)  # linea que cruza el eje y
 
 plt.scatter(
-    x1, fx, color="Blue", s=30, zorder=5, label=f"x1 = ({round(x1,2)}, {round(fx, 2)})"
-)  # punto de la funcion
+    x1, fx, color="Brown", s=30, zorder=5, label=f"x1 = ({round(x1,2)}, {round(fx, 2)})"
+)  # punto evaluado en la funcion de color cafe
 
 
 plt.legend()
