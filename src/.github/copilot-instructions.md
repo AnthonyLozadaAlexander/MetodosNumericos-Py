@@ -12,7 +12,7 @@ Al generar mensajes de commit, sigue estrictamente estas reglas:
 ### Formato obligatorio
 
 ```
-<tipo>(<alcance>): <descripción corta en imperativo>
+<tipo>(<alcance>): <descripción detallada en imperativo>
 
 <cuerpo explicativo>
 
