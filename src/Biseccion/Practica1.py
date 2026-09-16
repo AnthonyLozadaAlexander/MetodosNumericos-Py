@@ -21,20 +21,19 @@ a : float = 0.8
 b : float = 0.9
 i : int = 0
 
-mAnterior = (a + b) / 2
 errorActual : float = 100.0
-
-if(fx(a) * fx(mAnterior) < 0):
-    b = mAnterior
-else:
-    a = mAnterior
-    
 while(errorActual > tolerancia):
-    m = (a + b) / 2
+    c_Anterior = (a + b) / 2
+
+    if(fx(a) * fx(c_Anterior) < 0):
+        b = c_Anterior
+    else:
+        a = c_Anterior
+
+    c = (a + b) / 2
     
-    errorActual = error(m, mAnterior)
+    errorActual = error(c, c_Anterior)
     
-    mAnterior = m
     i += 1
     print("i: ", i)
 
@@ -42,6 +41,8 @@ while(errorActual > tolerancia):
 xGen : np.ndarray = np.linspace(-1, 2, 100)
 F : float = np.exp(2*xGen) - 6
 plt.plot(xGen, F, label = "f(x) = e^(2x) - 6")
-print("Resultado: ", m)
+plt.scatter(c, fx(c), color = "red", label = f"Raiz Aproximada: {c:.5f}")
+print("Resultado: ", c)
 print("Error: ", errorActual)
+plt.legend()
 plt.show()
